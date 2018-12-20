@@ -1,18 +1,9 @@
 # IPchexmex
 Checks to see if you are in a country that allows Bitmex trading
 
-#TODO
--Make it so no permissions are required (get rid of the content_scripts > matches)
--Add indicator that you are secure (change icon somwhow. good luck)
+Only has access to tab information (url, tab title, etc.). No information on BitMex, besides, the url, is looked at. 
 
-background script with listener for new tab
-check if tab is bitmex with
-chrome.tabs.query({'active': true, 'lastFocusedWindow': true}, function (tabs) {
-    var url = tabs[0].url;
-});
+Can be found in the Chrome store under username: "isaackoz" titled "IPchexmex". 
+https://chrome.google.com/webstore/detail/ipchexmex/dkkcfjemmclijplohefaeidboeeejjdi
 
-if its bitmex, chrome.alarms.create({delayInMinutes: 3.0}) create an alarm  for every 5 seconds? maybe user interface in popup ;s
-
-
-if new tab, store tabid in array
-on tab update loop array to see if url matches bitmex
+If you do not trust it, then download the vpn checker folder, check the source code yourself, and find out how to load the extension into chrome yourself ;).
