@@ -3,7 +3,7 @@
 	"name": "IPchexmex",
 	"short_name": "IPCM",
 	"description": "Checks to see if you are in a country that allows Bitmex trading",
-	"version": "1.1",
+	"version": "1.2",
 	"author": "isaackoz",
 	"background": {
 		"scripts": ["background.js", "jquery.min.js"],
@@ -15,6 +15,6 @@
 		"128": "icon148.png"
 	},
 	"permissions": [
-		"tabs"
+		"tabs","alarms"
 	]
 }
