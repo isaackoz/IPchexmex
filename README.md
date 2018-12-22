@@ -7,3 +7,7 @@ Can be found in the Chrome store under username: "isaackoz" titled "IPchexmex".
 https://chrome.google.com/webstore/detail/ipchexmex/dkkcfjemmclijplohefaeidboeeejjdi
 
 Only bug so far is that if you go to a different url while previously on a bitmex url (bitmex.com -> google.com) in the same tab, it will still run every 60 seconds to see if you are safe. You can fix this by either closing the tab that previously was on bitmex, or wait for me to fix it. 
+
+As always, 
+
+[[https://github.com/isaackoz/IPchexmex/blob/master/download%20(1).png]]
