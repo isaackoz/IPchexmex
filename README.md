@@ -10,4 +10,4 @@ Only bug so far is that if you go to a different url while previously on a bitme
 
 As always, 
 
-[[https://github.com/isaackoz/IPchexmex/blob/master/download%20(1).png]]
+![alt text](https://github.com/isaackoz/IPchexmex/blob/master/download%20(1).png)
