@@ -41,7 +41,7 @@ function secured() {
 		console.log('IPchexmex: checking if secured'); //logging
 		for(var i = 0; i < iccLength; i++) { 
 			if(data.country_code == invalid_country_codes[i] || data.region == "Quebec") { //if the country code from the invalid_country_codes array matches, or from quebec, then continue into function
-				alert('WARNING! Your IP is in country prohibited from holding positions or entering into contracts at BitMEX! Use a VPN before continuing. Current location: ' + data.country_name); //alerts us that we are in a blocked country
+				alert('WARNING! Your IP is in a country prohibited from holding positions or entering into contracts at BitMEX! Use a VPN before continuing. Current location: ' + data.country_name); //alerts us that we are in a blocked country
 				console.log('IPchexmex: not secured'); //logging
 				return false
 			}	
